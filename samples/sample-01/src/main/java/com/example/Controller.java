@@ -31,7 +31,7 @@ import com.common.Foo1;
 @RestController
 public class Controller {
 
-	@Autowired
+//	@Autowired
 	private KafkaTemplate<Object, Object> template;
 
 	@PostMapping(path = "/send/foo/{what}")
